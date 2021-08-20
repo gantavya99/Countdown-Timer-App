@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap');
+
+*{
+    box-sizing:border-box
+}
+body{
+   background-image: url("tortoise.jpg");
+   background-size: cover;
+   font-family: 'Klee One', cursive;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+.h1{
+    font-size: 3rem;
+    font-weight:400;
+    color: white;
+    margin-top: 10rem;
+}
+.countdown-container{
+    color: white;
+    display: flex;
+    
+}
+.big-text{
+    font-weight: bold;
+    font-size: 4rem;
+    line-height:1;
+    margin: 0 2rem;
+    padding: 1rem;
+}
+.countdown-el{
+text-align: center;
+}
+.countdown-el span{
+    font-size: 1.5rem; 
+}
+.below-text{
+    padding-top: 1rem;
+}
