@@ -3,7 +3,7 @@ const hoursElement=document.getElementById('hours');
 const minutesElement=document.getElementById('minutes');
 const secondsElement=document.getElementById('seconds');
 
-const virginityLost='1 Sep 2027';
+const virginityLost='10 Dec 2021';
 function countdown(){
     const virginityLostDate=new Date(virginityLost);
     const currentDate=new Date();
